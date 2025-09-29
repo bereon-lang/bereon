@@ -43,3 +43,14 @@ For those with experience with languages with the LISP dialect (Clojure) and Rus
 
 (even? 10) ; => "yep!"
 ```
+
+```clojure
+(fn max [x, y: int] {
+    (if (x > y) {
+        x
+    } y )
+} -> int)
+
+(max 10 20) ; => 20
+```
+
