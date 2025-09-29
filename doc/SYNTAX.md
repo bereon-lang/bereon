@@ -1,5 +1,8 @@
 # Syntax
 
+Inspired by Clojure and Rust, Bereon syntax is very similar, but with some differences. 
+For those with experience with languages with the LISP dialect (Clojure) and Rust, Bereon should be easy to pick up.
+
 ### Variables
 
 ```clojure
@@ -20,6 +23,8 @@
 (fn sum [x: int, y: int] { ; Multiple arguments can be passed
     (+ x y) ; The `+` is the function call.
 } -> int) ; The `->` is the return type.
+
+(sum 1 2) ; => 3
 ```
 
 
@@ -36,5 +41,5 @@
     "yep!" ; => true
 } "not even!" ) ; => false
 
-(println (even? 10)) ; => "yep!"
+(even? 10) ; => "yep!"
 ```
